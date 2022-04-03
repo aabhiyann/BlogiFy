@@ -1,0 +1,101 @@
+/* ----------- color palette -------- */
+/* 
+#3CAAE1
+#5496DC
+#7280CE
+#8B67B7
+#D588B8
+#9D4D97
+#A43070
+ */
+
+.write-container {
+  padding-top: 50px;
+}
+
+.input-cover {
+  /* margin-left: 150px; */
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.blog-form {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-group {
+  /* margin-left: 150px; */
+  display: flex;
+  align-items: center;
+}
+
+.add-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  margin: 0 0.3rem;
+  transition: all 0.3s linear;
+  color: #7280ce;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.add-btn:hover {
+  color: #3caae1;
+}
+
+.blog-input {
+  border: none;
+  font-size: 20px;
+  padding: 20px 20px 5px 20px;
+  width: 40%;
+  border-bottom: 1px solid #e6e6e6;
+  margin-right: 45px;
+}
+
+.blog-input:focus {
+  outline: none;
+}
+
+.blog-text {
+  height: 40vh;
+  width: 100%;
+}
+
+.form-submit-btn {
+  cursor: pointer;
+  width: 8rem;
+  align-self: center;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  padding: 0.3rem 1rem;
+  margin-top: 20px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  color: #ffffff;
+  background-color: #3caae1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.form-submit-btn:hover {
+  background-color: #7280ce;
+}

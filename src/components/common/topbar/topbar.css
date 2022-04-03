@@ -1,0 +1,77 @@
+/* ----------- color palette -------- */
+/* 
+#3CAAE1
+#5496DC
+#7280CE
+#8B67B7
+#D588B8
+#9D4D97
+#A43070
+ */
+
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: antiquewhite;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: Neucha, sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.topIcon,
+.topRight {
+  /* 3 units each */
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-container {
+  /* 6 units for center item */
+  flex: 6;
+}
+
+/* menu bar (center) */
+.top-menu {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-item {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+/* right portion */
+.profile-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+  color: #666;
+  margin-left: 15px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}

@@ -1,0 +1,79 @@
+/* ----------- color palette -------- */
+/* 
+#3CAAE1
+#5496DC
+#7280CE
+#8B67B7
+#D588B8
+#9D4D97
+#A43070
+ */
+
+.searchbar-container {
+  background-color: #f0f0f0;
+  width: fit-content;
+  margin: 2.5rem auto 4rem auto;
+  padding: 0.5rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.searchbar-container form {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar-container input {
+  background-color: #f0f0f0;
+  outline: none;
+  border: none;
+}
+
+.searchbar-container span {
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.search-submit-btn {
+  outline: none;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  /* background-color: #3caae1; */
+  color: #3caae1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.search-submit-btn:hover {
+  color: #7280ce;
+}
+
+.clear-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+  color: #e66b6b;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.clear-btn:hover {
+  color: #bb2525;
+}
