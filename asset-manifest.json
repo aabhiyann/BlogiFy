@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BlogiFy/static/css/main.9c6679c9.css",
+    "main.js": "/BlogiFy/static/js/main.d9eeb5b2.js",
+    "index.html": "/BlogiFy/index.html",
+    "main.9c6679c9.css.map": "/BlogiFy/static/css/main.9c6679c9.css.map",
+    "main.d9eeb5b2.js.map": "/BlogiFy/static/js/main.d9eeb5b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c6679c9.css",
+    "static/js/main.d9eeb5b2.js"
+  ]
+}
