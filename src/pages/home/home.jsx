@@ -4,11 +4,6 @@ import SearchBar from "../../components/home/searchbar/searchBar";
 import BlogList from "../../components/home/bloglist/blogList";
 import EmptyList from "../../components/common/emptylist/emptylist";
 import { blogData } from "../../config/data";
-// test::;;;;;;;;;;;;;;;:::::
-import NewBlog from "../newblog/newblog";
-import Settings from "../settings/settings";
-import Login from "../login/login";
-import Register from "../register/register";
 
 function Home() {
   const [blogs, setBlogs] = useState(blogData);

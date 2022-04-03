@@ -24,11 +24,8 @@ function Register() {
           Already have an account? <Link to="/login">Sign in</Link>
         </p>
         <form className="register-form">
-          {/* <label>Email</label> */}
           <input type="text" placeholder="Enter your email" />
-          {/* <label>Username</label> */}
           <input type="text" placeholder="Enter your username" />
-          {/* <label>Password</label> */}
           <input type="password" placeholder="Enter your password" />
           <button className="register-btn">Sign Up</button>
         </form>

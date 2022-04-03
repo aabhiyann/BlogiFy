@@ -3,6 +3,7 @@ import "./blogItem.css";
 import Card from "../../../common/card/card";
 import { Link } from "react-router-dom";
 import { FaChevronRight, FaLocationArrow } from "react-icons/fa";
+
 const BlogItem = ({ blog }) => {
   const {
     id,
@@ -14,6 +15,7 @@ const BlogItem = ({ blog }) => {
     date,
     cover,
   } = blog;
+
   return (
     <div className="blog-container">
       <Link to={`/blog/${id}`}>

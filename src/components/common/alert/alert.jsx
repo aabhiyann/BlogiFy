@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./alert.css";
 
 const Alert = ({ props, removeAlert }) => {
-  const { type, msg } = props;
+  const { msg } = props;
 
   useEffect(() => {
     const timeout = setTimeout(() => {
