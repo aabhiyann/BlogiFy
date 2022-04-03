@@ -1,0 +1,37 @@
+/* ----------- color palette -------- */
+/* 
+#3CAAE1
+#5496DC
+#7280CE
+#8B67B7
+#D588B8
+#9D4D97
+#A43070
+ */
+
+.card {
+  color: #7280ce;
+  align-self: center;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: Neucha, sans-serif;
+  /* font-size: 1rem; */
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  -webkit-border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  -moz-border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  -ms-border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  -o-border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+}
+/* .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+} */

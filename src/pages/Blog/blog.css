@@ -1,0 +1,139 @@
+/* ----------- color palette -------- */
+/* 
+#3CAAE1
+#5496DC
+#7280CE
+#8B67B7
+#D588B8
+#9D4D97
+#A43070
+ */
+
+.displayblog-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.back-text {
+  color: #6e6e6e;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.back-text:hover {
+  color: #3caae1;
+}
+
+.back-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+  color: #7280ce;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.back-btn:hover {
+  color: #3caae1;
+}
+
+.displayblog-container header {
+  text-align: center;
+}
+
+.date-blog {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6e6e6e;
+}
+
+.blog-title {
+  color: #7280ce;
+  font-family: Neucha, sans-serif;
+  outline: none;
+  padding: 0.75rem;
+}
+
+.displayblog-container img {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.blog-author {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6e6e6e;
+  padding: 0.5rem 0rem 0rem 1rem;
+}
+
+.description-blog {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.description-blog::first-letter {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.blog-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.edit-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  margin: 0 0.3rem;
+  transition: all 0.3s linear;
+  color: #5ecc5e;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.edit-btn:hover {
+  color: #20d120;
+}
+
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  margin: 0 0.3rem;
+  transition: all 0.3s linear;
+  color: #e66b6b;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.delete-btn:hover {
+  color: #bb2525;
+}

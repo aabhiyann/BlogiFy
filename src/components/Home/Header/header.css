@@ -1,0 +1,38 @@
+/* ----------- color palette -------- */
+/* 
+#3CAAE1
+#5496DC
+#7280CE
+#8B67B7
+#D588B8
+#9D4D97
+#A43070
+ */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.header-container h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #7280ce;
+  font-family: Neucha, sans-serif;
+}
+
+.header-container p {
+  font-size: 2rem;
+  color: #7280ce;
+  margin-bottom: 1rem;
+  font-family: Neucha, sans-serif;
+}
+
+.header-img {
+  width: 10rem;
+  /* height: 450px; */
+  margin-top: 8px;
+  object-fit: cover;
+}

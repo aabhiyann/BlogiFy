@@ -1,0 +1,123 @@
+.login-box-form {
+  font-family: Neucha, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px 4px #090b6f85;
+}
+
+@media (max-width: 980px) {
+  .login-box-form {
+    flex-flow: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+.login-box-form div {
+  height: auto;
+}
+/* left side-- for image and welcome text */
+.login-box-form .left {
+  color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1572028412480-0a75271c6bb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");
+  overflow: hidden;
+}
+
+.login-box-form .left .overlay {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background: #5961f9ad;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.login-box-form .left .overlay h1 {
+  font-size: 8vmax;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.login-box-form .left .overlay p {
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.social-login {
+  display: flex;
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+.social-icon {
+  margin-left: 15px;
+}
+
+.login-box-form .right {
+  padding: 40px;
+  overflow: hidden;
+}
+
+@media (max-width: 980px) {
+  .login-box-form .right {
+    width: 100%;
+  }
+}
+
+.login-box-form .right h5 {
+  font-size: 6vmax;
+  line-height: 2;
+  color: #7280ce;
+}
+
+.login-box-form .right p {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.login-box-form .right input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #b0b3b9;
+}
+
+.login-form {
+  margin: 50px 0;
+}
+
+.login-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+  color: #7280ce;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.login-btn:hover {
+  color: #3caae1;
+}

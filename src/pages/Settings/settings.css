@@ -1,0 +1,93 @@
+.settings-container {
+  padding: 20px;
+}
+
+.settings-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.update-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #3caae1;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-profilePicture {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.settings-profilePicture img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.user-icon {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #7280ce;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.user-icon:hover {
+  color: #3caae1;
+}
+
+.settings-form > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settings-form input {
+  color: #6e6e6e;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 6rem;
+  align-self: center;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  padding: 0.3rem 1rem;
+  margin-top: 20px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  color: #ffffff;
+  background-color: #3caae1;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.submit-btn:hover {
+  background-color: #7280ce;
+}
