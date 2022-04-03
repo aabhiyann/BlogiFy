@@ -2,11 +2,16 @@ import React, { useState, useRef } from "react";
 import "./newblog.css";
 import { FaPlus } from "react-icons/fa";
 import { blogData } from "../../config/data";
+import Alert from "../../components/common/alert/alert";
 
 function NewBlog() {
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("");
   const [description, setDescription] = useState("");
+  const [alert, setAlert] = useState({
+    show: false,
+    msg: "",
+  });
 
   const handleNewBlog = (e) => {
     e.preventDefault();
@@ -23,9 +28,13 @@ function NewBlog() {
     blogData.push(newData);
     // console.log(newData);
     console.log(blogData);
+
+    showAlert(true, "item added sucessfully");
   };
 
-  let formData = new FormData();
+  const showAlert = (show = false, msg = "") => {
+    setAlert({ show: show, msg: msg });
+  };
 
   return (
     <div className="write-container">
@@ -35,6 +44,7 @@ function NewBlog() {
         alt="input-page-cover"
       ></img>
       <form className="blog-form" onSubmit={handleNewBlog}>
+        {alert.show && <Alert props={alert} removeAlert={showAlert} />}
         <div className="form-group">
           {/* input for image */}
           <label htmlFor="fileInput">
