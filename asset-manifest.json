@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fcb9753.css",
-    "main.js": "/static/js/main.d9efc710.js",
-    "index.html": "/index.html",
-    "main.9fcb9753.css.map": "/static/css/main.9fcb9753.css.map",
-    "main.d9efc710.js.map": "/static/js/main.d9efc710.js.map"
+    "main.css": "/BlogiFy/static/css/main.9fcb9753.css",
+    "main.js": "/BlogiFy/static/js/main.d9efc710.js",
+    "index.html": "/BlogiFy/index.html",
+    "main.9fcb9753.css.map": "/BlogiFy/static/css/main.9fcb9753.css.map",
+    "main.d9efc710.js.map": "/BlogiFy/static/js/main.d9efc710.js.map"
   },
   "entrypoints": [
     "static/css/main.9fcb9753.css",
