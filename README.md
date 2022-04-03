@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# BlogiFy - Share your blogs ! 
 
+## Table of contents
+* [General info](#general-info)
+* [Work Completed](#work-completed)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is a personal blog site. The main objectives of this project was to create a well-designed, user friendly blogging site. User experience was kept in mind during the design of the project. 
+
+React concepts such as React Hooks, props, JSX, React Router, React components, map (more like es6 JS concept) were used throughout the project. Also, prettier was used to factor the code for better understandability and easier readibility.
+
+For a live demo of the website visit: https://blogify-share-your-blogs.netlify.app/
+(This is just a frontend website with missing backend. Hence, some functionalities are not completed. They are mentioned below)
+
+
+## Work Completed
+This porject is only a front-end design of a blogging site. The front-end design was completed using React.Js. A proper backend API needs to be developed and implemented withinh the porject to perform additional functionalities.
+Currently, the blog site is able to:
+* Display a header menu with links to various pages and components within the website.
+*  Display a list of blogs in the homepage.
+* Search blogs by category (eg. photography, food, lifestyle).
+* Add new blogs along with their category. These blogs can are displayed in the browser once added. (Stored temporarily)
+* Display a well-designed, responsive login and signup pages for user registration and login.
+*  Display a settings page by cliclking on the user image on the header menu. 
+*  Routing between various pages and components is achoeved using React Router v6.
+
+The enhancements that can be performed to the project are:
+* Create a proper backend for the project using Node.JS for handling data. (Lack of such backend API prevents implementation of functionalities).
+* Even though there are buttons to edit and delete blogs within the blog component, they have no functionality. 
+* About and contact pages are not yet designed.
+
+
+	
+## Technologies
+Project is created using:
+* [React JS](https://reactjs.org/)
+* [VS Code](https://code.visualstudio.com/)
+
+The React.Js dependencies used in the project are
+* [react-router-dom: v6.2.2](https://www.npmjs.com/package/react-router-dom)
+* [react-icons/fa](https://react-icons.github.io/react-icons/icons?name=fa)
+	
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Setup
+To run this project, install it locally using npm:
 
-### `npm start`
+```
+$ cd ../Blogify-share-your-blogs
+$ npm install
+$ npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+* This runs the app in the development mode.
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* The page will reload when any changes are made.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
